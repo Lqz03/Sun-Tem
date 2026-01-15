@@ -3,45 +3,6 @@ body {
 	padding-bottom: 0px;
 }
 
-/* 修改导航栏为海蓝色 */
-.navbar,
-.navbar-inner {
-  background-color: #1e88e5;
-  border-color: #1976d2;
-}
-
-/* 导航栏链接颜色调整 */
-.navbar .nav li a {
-  color: white;
-  border-left: 1px solid rgba(255, 255, 255, 0.2);
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.navbar .nav li a:hover {
-  background-color: rgba(255, 255, 255, 0.15);
-  color: #fff;
-}
-
-.navbar .nav li.active a {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #fff;
-}
-
-/* 修改页脚为海蓝色 */
-#footer {
-  background-color: #1976d2;
-  border-top-color: #0d47a1;
-}
-
-#footer h3 {
-  color: #e3f2fd;
-  border-bottom-color: #1565c0;
-}
-
-#footer p,
-#footer address {
-  color: #bbdefb;
-}
 
 /* Custom container */
 
@@ -103,7 +64,7 @@ body>.navbar .brand {
 	margin-left: 20px;
 	float: right;
 	font-weight: bold;
-	color: #000;
+	color: #3e6bc4;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, .1), 0 0 30px rgba(255, 255, 255, .125);
 	-webkit-transition: all .2s linear;
 	-moz-transition: all .2s linear;
@@ -557,8 +518,8 @@ ul.sponsors {
 	padding-bottom: 25px;
 	border-top-width: 8px;
 	border-top-style: solid;
-	border-top-color: #2F2F2F;
-	background-color: #000000;
+	border-top-color: #ffffff;
+	background-color: #3e6bc4;
 	border: 0;
 	font-size: 100%;
 	font: inherit;

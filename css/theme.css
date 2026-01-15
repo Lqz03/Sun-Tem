@@ -3,18 +3,44 @@ body {
 	padding-bottom: 0px;
 }
 
-/* 修改顶部导航栏背景色 */
+/* 修改导航栏为海蓝色 */
+.navbar,
 .navbar-inner {
-    background-color: #1f70ab !important;
+  background-color: #1e88e5;
+  border-color: #1976d2;
 }
 
+/* 导航栏链接颜色调整 */
 .navbar .nav li a {
-    color: white !important;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  color: white;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .navbar .nav li a:hover {
-    background-color: rgba(255, 255, 255, 0.2) !important;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+.navbar .nav li.active a {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+/* 修改页脚为海蓝色 */
+#footer {
+  background-color: #1976d2;
+  border-top-color: #0d47a1;
+}
+
+#footer h3 {
+  color: #e3f2fd;
+  border-bottom-color: #1565c0;
+}
+
+#footer p,
+#footer address {
+  color: #bbdefb;
 }
 
 /* Custom container */
@@ -77,7 +103,7 @@ body>.navbar .brand {
 	margin-left: 20px;
 	float: right;
 	font-weight: bold;
-	color: #ffffff;
+	color: #000;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, .1), 0 0 30px rgba(255, 255, 255, .125);
 	-webkit-transition: all .2s linear;
 	-moz-transition: all .2s linear;
@@ -531,24 +557,23 @@ ul.sponsors {
 	padding-bottom: 25px;
 	border-top-width: 8px;
 	border-top-style: solid;
-	border-top-color: #1f70ab;
-	background-color: #1f70ab;
+	border-top-color: #2F2F2F;
+	background-color: #000000;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 	text-align: center;
-	color: white; 
 }
 
 #footer h3 {
 	font-size: 19px;
 	text-transform: uppercase;
 	font-family: BebasNeueRegular;
-	color: #ffffff;
+	color: #8DBECE;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
-	border-bottom-color: rgba(255, 255, 255, 0.3);;
+	border-bottom-color: #30393C;
 	line-height: 35px;
 	margin-bottom: 20px;
 	margin-top: 25px;
@@ -561,6 +586,6 @@ ul.sponsors {
 
 #footer p,
 #footer address {
-	color: #ffffff;
+	color: #8F8F8F;
 	font-size: 11px;
 }

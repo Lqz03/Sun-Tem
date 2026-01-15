@@ -5,7 +5,7 @@ body {
 
 /* 修改顶部导航栏背景色 */
 .navbar-inner {
-    background-color: #70DB93 !important;
+    background-color: #1f70ab !important;
 }
 
 .navbar .nav li a {
@@ -531,13 +531,14 @@ ul.sponsors {
 	padding-bottom: 25px;
 	border-top-width: 8px;
 	border-top-style: solid;
-	border-top-color: #2F2F2F;
-	background-color: #3484c6;
+	border-top-color: #1f70ab;
+	background-color: #1f70ab;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 	text-align: center;
+	color: white; 
 }
 
 #footer h3 {
@@ -547,7 +548,7 @@ ul.sponsors {
 	color: #ffffff;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
-	border-bottom-color: #30393C;
+	border-bottom-color: rgba(255, 255, 255, 0.3);;
 	line-height: 35px;
 	margin-bottom: 20px;
 	margin-top: 25px;
@@ -560,6 +561,6 @@ ul.sponsors {
 
 #footer p,
 #footer address {
-	color: #8F8F8F;
+	color: #ffffff;
 	font-size: 11px;
 }
